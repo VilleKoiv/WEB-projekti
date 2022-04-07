@@ -4,26 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Historia visa</title>
     <h1>Historia tietovisa</h1>
     <hr>
 </head>
 <body>
 
-    <h3>Kuinka monta maailmansotaa on ollut?</h2>
-        
-        <input type="radio" id="choice1" name="question1" value="HTML">
-        <label for="choice1">3</label><br>
-        <input type="radio" id="choice2" name="question1" value="CSS">
-        <label for="choice2">1</label><br>
-        <input type="radio" id="choice3" name="question1" value="JavaScript">
-        <label for="choice3">2</label>
+    <!-- Laaditaan 5 kysymystä, vastaus ilmoitetaan numerona-->
+    <div class="questions">
+        <section>
+            <h3>1. Kuinka monta maailmansotaa on ollut?</h2>
+            <p id="first">3</p>
+            <p id="first">1</p>
+            <p id="first">2</p>
+            <input type="number" id="answer">
+            <button type="button" onclick="v01()">vastaa</button>
+            <p id="correct">&nbsp</p>
+            <p id="answer_error" class="error"></p>
+    </section>
 
 
+
+    <section>
+        <h3>2. Mistä laivat oli ennen valmistettu?</h2>
+        <p id="second">1. Puusta</p>
+        <p id="second">2. Raudasta</p>
+        <p id="second">3. Kuparista</p>
+        <p>Kirjaa vastauksesi numero alle</p>
+        <input type="number" id="answer2">
+        <button type="button" onclick="v02()">vastaa</button>
+        <p id="correct2">&nbsp</p>
+        <p id="answer_error2" class="error"></p>
+</section>
+
+
+
+<section>
+    <h3>3. Mikä oli ensimmäinen eläin avaruudessa?</h2>
+    <p id="third">1. Elefantti</p>
+    <p id="third">2. Koira</p>
+    <p id="third">3. Sinivalas</p>
+    <p>Kirjaa vastauksesi numero alle</p>
+    <input type="number" id="answer3">
+    <button type="button" onclick="v03()">vastaa</button>
+    <p id="correct3">&nbsp</p>
+    <p id="answer_error3" class="error"></p>
+    </div>
+</section>
+
+
+    
+<div class="questions">
+
+    <section>
+        <h3>4. Kuka oli todella tunnettu Rooman keisari?</h2>
+        <p id="fourth">1. Julius</p>
+        <p id="fourth">2. Jesper</p>
+        <p id="fourth">3. Joonatan</p>
+        <p id="fourth">4. Jasper</p>
+        <p>Kirjaa vastauksesi numero alle</p>
+        <input type="number" id="answer4">
+        <button type="button" onclick="v04()">vastaa</button>
+        <p id="correct4">&nbsp</p>
+        <p id="answer_error4" class="error"></p>
+</section>
+
+<section>
+    <h3>5. Kuinka kauan Suomi on ollut itsenäinen?</h2>
+    <p id="fifth">1. Yli 100 vuotta</p>
+    <p id="fifth">2. 50 vuotta</p>
+    <p id="fifth">3. 75 vuotta</p>
+    <p id="fifth">4. 80 vuotta</p>
+    <p id="fifth">5. 1 vuoden</p>
+    <p>Kirjaa vastauksesi numero alle</p>
+    <input type="number" id="answer5">
+    <button type="button" onclick="v05()">vastaa</button>
+    <p id="correct5">&nbsp</p>
+    <p id="answer_error5" class="error"></p>
+</section>
 
 
 <script src="script.js"></script>
-<script src="style.css"></script>
 </body>
 
 </html>

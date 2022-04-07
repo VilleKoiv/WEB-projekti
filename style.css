@@ -1,7 +1,26 @@
+html {
+    background-color: rgb(0, 174, 255);
+}
+/* Sivuston taustaväriksi yhdessä sovittu väri */
 h1 {
-font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-html {
-background-color: rgb(0, 137, 255);
+section {
+    background-color: #57e6a9;
+    margin-right: 400px;
+    margin-left: 400px;
+    align-self: center;
+}
+/* Vastauskenttienkin taustaväri on yhdessä sovitusta teemasta */
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    margin-left: 175px;
 }
